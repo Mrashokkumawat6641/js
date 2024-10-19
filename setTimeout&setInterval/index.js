@@ -23,7 +23,9 @@ btn.addEventListener('click', () => {
 // btn.addEventListener('click', () =>  {
     // clearTimeout()
     // console.log(customTimeOut)
-// })
+// })=>alert("World"))
+
+
 setTimeout(() => alert("World"));
 
 alert("Hello");
