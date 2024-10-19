@@ -29,7 +29,7 @@
     // for(let i =0;i< arr.length; i++) {
         // const element = callback(arr[i])
         // ans.push(element);
-        const ans = []
+        // const ans = []
 // 
     // console.log(ans)
     // }
