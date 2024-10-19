@@ -119,3 +119,9 @@ function Hero(size, speed) {
 const arr = [12,34,4,56]
 console.log(...arr)
 console.log(typeof arr )
+
+
+
+
+
+
