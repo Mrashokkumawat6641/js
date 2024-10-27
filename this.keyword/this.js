@@ -1,24 +1,24 @@
-// class Test {
-    // a = 1;
-    // b = 2;
-    // c = 3;
-    // constructor() {
-        // console.log(this.c)
-    // }
-// 
-// 
-// }
-// 
-// const obj = {
-    // a:1,
-    // b:2,
-    // c:3,
-    // d: function (params,head) {
-        // this.a = params;
-        // this.b = head;
-        // console.log(this)
-    // },
-// };
+class Test {
+    a = 1;
+    b = 2;
+    c = 3;
+    constructor() {
+        console.log(this.c)
+    }
+
+
+}
+
+const obj = {
+    a:1,
+    b:2,
+    c:3,
+    d: function (params,head) {
+        this.a = params;
+        this.b = head;
+        console.log(this)
+    },
+};
 // obj.d(25,55);
 
 // const obj = {
@@ -44,13 +44,13 @@
 
 
 // const obj = {
-    // name: 'John',
-    // age: 30,
-    // asd() {
-        // console.log(this)
-    // },
+//     name: 'John',
+//     age: 30,
+//     asd() {
+//         console.log(this.name)
+//     },
 // };
-// 
+
 // function asd() {
     // console.log(this)
 // }
@@ -63,7 +63,7 @@ const obj1 = {
     surname: 'Singh',
     getName: function () {
         console.log(this.name);
-        // console.log(this.surname)
+        console.log(this.surname)
     },
 };
 
@@ -71,13 +71,13 @@ const obj2 = {
     name: 'Doe',
     age: 30,
     getName: function () {
-        // console.log(this.name);
-        // console.log(this.age)
+        console.log(this.name);
+        console.log(this.age)
     },
 };
 
 obj1.getName();
-// obj2.getName();
+obj2.getName();
 obj1.getName.call(obj2)
 
 
